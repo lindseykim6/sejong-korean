@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <!--Code from class slides, which links CSS to html-->
+        <link rel="stylesheet" href="style/style.css"/>
+        <title>Sejong Korean School</title>
+
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Questrial&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link rel="icon" type="image/x-icon" href="/images/idaho_sejong.webp">
+
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    </head>
+
+    <body>
+        <header class = "">
+            <div class = "banner">
+                <div class = "sectheader">Classes Are Open Now</div>
+            </div>
+            <div class = "background">
+                <div id = "primary_navbar">
+                    <img src="images/idaho_sejong.webp" id="logo"/>
+                    <nav class ="desktop">
+                        <ul id = "nav">
+                            <li id = "first" class = "bullet"><a href="#about">Home</a></li>
+                            <li class = "bullet"><a href="">About</a></li>
+                            <li class = "bullet"><a href="">Classes</a></li>
+                            <li class = "bullet"><a href="">Registration</a></li>
+                            <li class = "bullet"><a href="#contact">Volunteer</a></li>
+                            <li class = "bullet"><a href="#contact">Projects</a></li>
+                            <li class = "bullet"><a href="#contact">Gallery</a></li>
+                            <li class = "bullet"><a href="#contact">Contact</a></li>
+                        </ul>
+                    </nav>
+                </div>
+            </div>
+        </header>
+
+        <div class = "section1">
+            <img src="images/Wrapping Clothes.jpg.webp" id="wrapping"/>
+            <div id = "pink-square">
+                <img src="images/paint.svg" id="paint"/>
+                <img src="images/blob.svg" id="paint2"/>
+                <img src="images/blob.svg" id="paint3"/>
+                <img src="images/pink.png" id="paint4"/>
+                <div id = "padding">
+                    <p class = "title">아이다호의 작은 한국</p>
+                    <p class = "title2">Idaho Korean School</p> 
+                </div>    
+                <button id="event-button" type = "button" onclick= "navigateEvents()">Register</button>       
+            </div>
+        </div>       
+        
+        <div class = "section2">
+            <div id = "green-square">
+                <p class = "title3">Whether it’s the Korean language or the Korean culture, Idaho Korean School offers a great selection of courses that will teach you something new. Our school goes beyond the classroom.</p> 
+            </div>
+        </div>
+
+        <div class = "section3">
+            <h3 class = "title4">Classes</h3>
+            <div class = "class">
+                <img src="images/korean.webp" id="korean"/>
+                <div class = "new-class" id = "class1">
+                    <div class = "header">
+                        <p class = "title5">한국어반</p>
+                        <p class = "title6">Korean Language Classes</p>
+                    </div>
+                    <p class = "title7">수준별 한국어반을 운영하고 있습니다. 한국어의 말하기, 듣기, 읽기, 쓰기를 통합적으로 교육합니다.</p>
+                </div>
+            </div>
+            <div class = "class"">
+                <div class = "new-class"  id = "class2">
+                    <div class = "header">
+                        <p class = "title5">한국어반</p>
+                        <p class = "title6">Korean Language Classes</p>
+                    </div>
+                    <p class = "title7">수준별 한국어반을 운영하고 있습니다. 한국어의 말하기, 듣기, 읽기, 쓰기를 통합적으로 교육합니다.</p>
+                </div>
+                <img src="images/korean2.webp" id="korean"/>
+            </div>
+        </div>
+
+        <div class = "section4">
+            <div id = "purple-square">
+                <img src="images/idaho.webp" id="idaho"/>
+                <div id = "pink-square2">
+                    <p class = "title8">공지사항</h2>
+                    <hr class = "line">
+                    <hr class = "line2">
+                    <div class = "block">
+                        <div class = "paragraph">
+                            <span class="asterisk">**</span>
+                            <span>3월 29일은 Table rock church에 행사가 있는 관계로, 수업시 본관을 사용할 수 없게 되어 대면 수업과 온라인 수업을 병행할 예정입니다.</span>
+                        </div>
+                        <div class = "paragraph2">
+                            <span>1.</span>
+                            <span class="asterisk">대면 수업( 별관)</span>
+                            <ul class = "list">
+                                <li>
+                                    <span>한글 교실 -</span>
+                                    <span class="asterisk">가야, 고구려, 백제, 신라, 세종대왕, 훈민정음</span>
+                                </li>
+                                <li>
+                                    <span>문화교실 -</span>
+                                    <span class="asterisk">음악, 미술1,2, 종이접기, K-Culture</span>
+                                    <span>는  별관과 Garage건물에서 대면 수업을 합니다.</span>
+                                </li>
+                            </ul>
+                            <span>2.</span>
+                            <span class="asterisk">온라인 수업</span>
+                            <ul class = "list">
+                                <li>
+                                    <span>한글 교실 -</span>
+                                    <span class="asterisk">발해, 고려, 조선, 대한민국</span>
+                                </li>
+                                <li>
+                                    <span>문화교실 -</span>
+                                    <span class="asterisk">바느질, 서예, 수학교실,영화반</span>
+                                </li>
+                            </ul>
+                            <span>담당 선생님들께서 줌미팅 사이트를 보내주실 것이며 이 반들의 자원 봉사자들은 상황에 따라 참여 하지 않아도 됩니다.</span>
+                        </div>
+                        <div class = "paragraph">
+                            <span>그 날 교회 행사로 분주할 수 있으니 학생들의 안전을 위하여 꼭!! 담임 선생님께 데려다 주시고  문화 교실에 오셔서 데려 가시기 바랍니다.</span>
+                        </div>
+                        <div class = "paragraph">
+                            <span>불편을 드려서 죄송하고 문의하실 사항이 있으면 언제든지 연락바랍니다.</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class = "section5">
+            <div id = "brown-square">
+                <p class = "title9">Helpful Links</p> 
+            </div>
+        </div>
+
+        <div class = "section6">
+            <div class = "helpful-links1">
+                <p class = "title10">Boise Korean Youth Soccer</p>
+                <img src="images/soccer.png" id="soccer"/>
+                <a class = "button" href="https://www.facebook.com/groups/449339048480191/">
+                    <img src="images/facebook.webp" id="facebook"/>
+                </a>
+            </div>
+            <div class = "helpful-links2">
+                <p class = "title10">Sejong Korean Youth Club</p>
+                <div id="jellybean"> </div>
+                <a class = "button" href="https://www.idahosejongkoreanyouthclub.org/order-online">
+                    <button class="btn"><p class ="title11">View More</p></button>
+                </a>
+            </div>
+        </div>
+        
+        <div class = "section7">
+            <div id = "blue-square">
+                <div class = "container">
+                    <img src="images/paint.png"/> 
+                </div>
+                <div class = "container2">
+                    <img src="images/green.png"/> 
+                </div>
+                <div class = "container3">
+                    <img src="images/green2.png"/>
+                </div>
+                <div class = "container4">
+                    <img src="images/yellow.png"/>
+                </div>
+                <img src="images/output.png" id="paint6"/> 
+                <p class = "title12">아이다호 한국학교</p>
+                <p class = "title14">Idaho Korean School</p>
+                <p class = "title13">Contact Us</p>
+                <div class = "location">
+                    <p class="title16">Location</p>
+                    <p class="title15">Table Rock Church</p>
+                    <p class="title15">1522 S. Longmont Ave.</p>
+                    <p class="title15">Boise, ID 83716 </p>
+                </div>
+
+                <div class = "contact">
+                    <p class="title15">Text: (208)866-7719</p>
+                    <p class="title15">Email: idahokoreanschool@gmail.com</p>
+                </div>
+                <div class = "contact3">
+                    <div class = "contact2">
+                        <div class = "flex">
+                            <p class="title15">First Name</p>
+                            <input class="input"></input>
+                        </div>
+                        <div class = "flex">
+                            <p class="title15">Last Name</p>
+                            <input class="input"></input>
+                        </div>
+                    </div>
+                    <div class = "contact2">
+                        <div class = "flex">
+                            <p class="title15">Email *</p>
+                            <input class="input"></input>
+                        </div>
+                        <div class = "flex">
+                            <p class="title15">Phone</p>
+                            <input class="input"></input>
+                        </div>
+                    </div>
+                    <div class = "contact2">
+                        <div class = "flex">
+                            <p class="title17">Leave us a message...</p>
+                            <input class="input2"></input>
+                        </div>
+                    </div>
+                </div>
+                <a class = "button2" href="https://www.idahosejongkoreanyouthclub.org/order-online">
+                    <button class="btn2"><p class ="title19">Submit</p></button>
+                </a>
+            </div>
+        </div>
+
+  
+        <script src="main.js"></script>
+
+    </body>
+    
+</html>
