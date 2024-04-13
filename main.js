@@ -2,7 +2,8 @@ $(document).ready(function() {
   
     $(window).scroll(function() {
       
-      if ($(window).scrollTop() > 1000) {
+      if ($(window).scrollTop() > 500) {
+        console.log('scrolled');
         $('header').addClass('scrolled');
       } else {
         $('header').removeClass('scrolled');

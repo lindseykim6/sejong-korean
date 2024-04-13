@@ -33,10 +33,11 @@ header {
     position: fixed;
     top: 0;
     z-index: 1030;
-    &.scrolled {
-        opacity: 0; 
-        transition: all 1s ease;
-    }
+}
+
+header.scrolled {
+    opacity: 0; 
+    transition: all 1s ease;
 }
 
 .background {
